@@ -1,0 +1,143 @@
+.gradient-background {
+    background: linear-gradient(300deg, #ECF4D6, #9AD0C2, #2D9596, #265073, #2500EB, #BE00EB, #7100EA, #EB0CB2);
+    background-size: 180% 180%;
+    animation: gradient-animation 25s ease infinite;
+    height: 80vh;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .h1_text {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    font-size: 80px;
+    background: linear-gradient(to bottom right, #C0DAEB, #C2C0EB, #C0CCEB, #C4E8EB, #C8B5EB);
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
+  #frontPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .h3_text {
+    font-family: 'Kameron', serif;
+    color: black;
+  }
+
+  .icons_nav {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+}
+
+.icons_nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.icons_nav li {
+    margin: 10px;
+}
+
+.nav-link {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.container1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 100;
+}
+
+.buttonCV {
+    padding: 10px;
+    border: none;
+    border-radius: 9px;
+    background: linear-gradient(300deg, #2D9596, #3a6d97);
+    width: 120px;
+    transition: 0.4s;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.buttonCV:hover {
+    background: linear-gradient(300deg, #135455, #0e273b);
+}
+
+.aboutMe {
+    font-family: 'Libre Baskerville', serif;
+}
+
+.imgMe {
+    border-radius: 8px;
+}
+
+.feature-icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 0.75rem;
+}
+
+.bodyOfText {
+  font-family: 'Rethink Sans', sans-serif;
+  color: black;
+  font-size: 18px;
+}
+
+.h3TextBold {
+  font-family: 'Kameron', serif;
+  color: black;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.navbarTEXT {
+  font-family: 'Kameron', serif;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.gradient-background-footer {
+  background: linear-gradient(300deg, #ECF4D6, #9AD0C2, #2D9596, #265073, #2500EB, #BE00EB, #7100EA, #EB0CB2);
+  background-size: 180% 180%;
+  animation: gradient-animation 25s ease infinite;
+  height: 300px;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+  
